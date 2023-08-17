@@ -1,0 +1,143 @@
+/* #82AAE3
+#91D8E4
+#BFEAF5
+#EAFDFC */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #bfeaf5;
+}
+
+.navbar {
+  z-index: 1;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+.navbar h1 {
+  color: #82AAE3;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar a img {
+  padding-right: 15px;
+  cursor: pointer;
+  padding-bottom: 1px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding-right: 25px;
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: #82aae3;
+  transition: 0.8s;
+}
+.navbar li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #82aae3;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar li:hover::after {
+  width: 80%;
+  margin-right: 30px;
+}
+.navbar li img {
+  width: 70px;
+}
+#kyqu {
+  background-color: #82aae3;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding-left: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+#kyqu:hover {
+  color: #151c6a;
+  background-color: #151c6a;
+  transition: 0.8s;
+}
+
+
+.main-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.left-container {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 35%;
+  width: 400px;
+  height: 350px;
+  background: white;
+  border-radius: 10px;
+  padding-top: 25px;
+}
+.login_form {
+  padding: 20px 40px;
+}
+.login_form .font {
+  font-size: 16px;
+  color: black;
+  padding: 5px 5px;
+}
+.login_form input {
+  height: 35px;
+  width: 300px;
+  padding: 0 5px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+.login_form .font2 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: black;
+  padding: 5px 5px;
+}
+.login_form #button {
+  margin: 45px 0 10px 0;
+  height: 45px;
+  width: 315px;
+  font-size: 17px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #82aae3;
+  border-radius: 10px;
+  border: 1px solid #82aae3;
+  transition: 0.5s;
+}
+.login_form #button:hover {
+  background: #151c6a;
+}
+
+.login_form #paragraph {
+  margin-left: 100px;
+  cursor: pointer;
+  color: black;
+}

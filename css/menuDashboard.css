@@ -1,0 +1,140 @@
+/* 
+#82AAE3
+#91D8E4
+#BFEAF5
+#EAFDFC 
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #82AAE3;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex ;
+}
+nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+}
+#logout{
+    margin-left: 1000px;
+}
+.sidebar {
+    background-color: #91D8E4 ;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 87px;
+    width: 200px;
+}
+.sidebar ul{
+    margin-top: 50px;
+}
+.sidebar ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.sidebar ul li img{
+    padding-left: 30px;
+}
+.sidebar ul li p{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 27px;
+    margin-top: -1px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.sidebar ul li a:hover{
+    font-size: 20px;
+}
+.main-content {
+    margin-left: 200px;
+    margin-top: 70px; 
+    padding: 20px;
+}
+/* ////////////////////////////////////////////////////////////////// */
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #82AAE3;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .link{
+      text-decoration: none;
+      color: red;
+      font-size: 17px;
+  }
+  .first-link{
+    color: black;
+    font-size: 22px;
+    padding-left: 50%;
+    position: relative;
+    top: 20px;
+  }
+  .top-links{
+      font-size: 30px;
+      color: black;
+      padding: 30px;
+      text-decoration: none;
+  }
+
+/* ////////////////////////////////////////////////////////////////// */
+
+  .staf{
+    display: none;
+  }
+  .kontakt{
+    display: none;
+  }
+  .terminet{
+    display: none;
+  }
+  .sherbimet{
+    display: none;
+  }
+  .userat{
+    display: none;
+  }
+  #butoni {
+    text-decoration: none;
+    padding: 13px 20px;
+    background-color: #82aae3;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }

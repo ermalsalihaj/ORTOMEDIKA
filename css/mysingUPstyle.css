@@ -1,0 +1,61 @@
+/* #82AAE3
+#91D8E4
+#BFEAF5
+#EAFDFC */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+background-color: #BFEAF5;
+}
+#formulari {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 40px 30px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #82AAE3;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .inp {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #82AAE3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #151c6a;
+  }
+  

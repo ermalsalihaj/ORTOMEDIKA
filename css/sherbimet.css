@@ -1,0 +1,236 @@
+/* #82AAE3
+#91D8E4
+#BFEAF5
+#EAFDFC */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  z-index: 1;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+.navbar h1 {
+  color: #82aae3;
+  margin-right: 400px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar a img {
+  padding-right: 15px;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding-right: 25px;
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: #82aae3;
+  transition: 0.8s;
+}
+.navbar li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #82aae3;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar li:hover::after {
+  width: 80%;
+  margin-right: 30px;
+}
+.navbar li img {
+  width: 70px;
+}
+#kyqu {
+  background-color: #82aae3;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding-left: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+#kyqu:hover {
+  color: #023e73;
+  background-color: #023e73;
+  transition: 0.8s;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+  height: 350px;
+  margin: 20px;
+  
+}
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1s;
+}
+.card .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card .front h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: black;
+  background: #91d8e4;
+  text-align: center;
+}
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: #82aae3;
+  padding: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+.card .back .link {
+  border-top: solid 1px white;
+  height: 50px;
+  line-height: 50px;
+}
+.card .back .link a {
+  color: #fff;
+}
+.card .back h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.card .back p {
+  letter-spacing: 1px;
+}
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+}
+.cards{
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  align-items: center;
+  flex-basis: 33.3333%;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 600px){
+  
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.navbar h1 {
+  color: #82aae3;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 370px;
+}
+.navbar a img {
+  cursor: pointer;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+.navbar li a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar li a:hover {
+  color: #82aae3;
+  transition: 0.8s;
+}
+.navbar li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #82aae3;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar li:hover::after {
+  width: 80%;
+  margin-right: 30px;
+}
+.navbar li img {
+  width: 70px;
+}
+#kyqu {
+  background-color: #82aae3;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 100px;
+
+}
+.card{
+  width: 340px;
+  margin-top: 50px;
+}
+
+}
